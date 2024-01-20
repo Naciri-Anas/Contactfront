@@ -1,0 +1,30 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+  }
+  .form-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .form-container button {
+    background-color: #022403;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    opacity: 0.8;
+  }

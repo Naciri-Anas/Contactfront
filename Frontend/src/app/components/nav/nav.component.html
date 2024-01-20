@@ -1,0 +1,30 @@
+<!-- navbar.component.html -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- logo -->
+      <a class="navbar-brand">
+        <img src="assets/images/logo1.png" height="20" alt="mdb logo" />
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav mr-auto">
+        <li>
+          <a routerLink="/home" routerLinkActive="active">Home</a>
+        </li>
+        <li>
+          <a routerLink="/contact-create" routerLinkActive="active">Create</a>
+        </li>
+        <li>
+          <a routerLink="/contact-list" routerLinkActive="active">View</a>
+        </li>
+        <li>
+          <a routerLink="/contact-update" routerLinkActive="active">Update</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
